@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:padding="@dimen/margin">
+
+        <TextView
+            android:id="@+id/id_paragraph1"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="The last 100 emails collected can easily be viewed on your device."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_paragraph2"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Have your full list of emails sent to you anytime via email."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/id_paragraph3"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Your data is private. We will never sell your emails to another party."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+            <Button
+                android:id="@+id/id_get_started_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_centerHorizontal="true"
+                android:text="@string/get_started" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings_navigation_menu_item"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings_title" />
+    <item
+        android:id="@+id/emails_navigation_menu_item"
+        android:icon="@drawable/ic_view_list"
+        android:title="@string/emails" />
+    <item
+        android:id="@+id/onboarding_navigation_menu_item"
+        android:icon="@drawable/ic_work"
+        android:title="@string/how_to_use" />
+    <item
+        android:id="@+id/sign_out_navigation_menu_item"
+        android:icon="@drawable/ic_sign_out"
+        android:title="@string/sign_out" />
+
+</menu>

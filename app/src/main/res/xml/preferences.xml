@@ -1,0 +1,69 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:id="@+id/id_pref_title"
+        android:dialogTitle="@string/pref_title_label"
+        android:hint="@string/pref_title_default"
+        android:key="@string/pref_title_key"
+        android:title="@string/pref_title_label" />
+
+    <EditTextPreference
+        android:id="@+id/set_settings_subtitle"
+        android:dialogTitle="@string/pref_subtitle_label"
+        android:hint="@string/pref_subtitle_default"
+        android:key="@string/pref_subtitle_key"
+        android:title="@string/pref_subtitle_label" />
+
+    <EditTextPreference
+        android:id="@+id/email_label"
+        android:dialogTitle="@string/pref_email_label_label"
+        android:hint="@string/pref_email_label_default"
+        android:key="@string/pref_email_label_key"
+        android:title="@string/pref_email_label_label" />
+
+    <EditTextPreference
+        android:id="@+id/email_placeholder"
+        android:dialogTitle="@string/pref_email_placeholder_label"
+        android:hint="@string/pref_email_placeholder_default"
+        android:key="@string/pref_email_placeholder_key"
+        android:title="@string/pref_email_placeholder_label" />
+
+    <EditTextPreference
+        android:id="@+id/submit_btn"
+        android:dialogTitle="@string/pref_submit_btn_label"
+        android:hint="@string/pref_submit_btn_default"
+        android:key="@string/pref_submit_btn_key"
+        android:title="@string/pref_submit_btn_label" />
+
+    <EditTextPreference
+        android:id="@+id/thank_you"
+        android:dialogTitle="@string/pref_thank_you_label"
+        android:hint="@string/pref_thank_you_default"
+        android:key="@string/pref_thank_you_key"
+        android:title="@string/pref_thank_you_label" />
+
+    <com.bwldr.emijit.settings.ImagePreference
+        android:id="@+id/background_image"
+        android:key="@string/pref_background_image_key"
+        android:title="@string/pref_background_image_label" />
+
+    <com.flask.colorpicker.ColorPickerPreference
+        android:id="@+id/email_input_line_color"
+        android:key="@string/pref_email_input_line_color_key"
+        android:title="@string/pref_email_input_line_color_label"
+        app:alphaSlider="true"
+        app:density="12"
+        app:initialColor="@integer/colorPrimaryLight"
+        app:lightnessSlider="true" />
+
+    <com.flask.colorpicker.ColorPickerPreference
+        android:id="@+id/submit_btn_color"
+        android:key="@string/pref_submit_btn_color_key"
+        android:title="@string/pref_submit_btn_color_label"
+        app:alphaSlider="true"
+        app:density="12"
+        app:initialColor="@integer/md_deep_purple_900"
+        app:lightnessSlider="true" />
+
+</PreferenceScreen>

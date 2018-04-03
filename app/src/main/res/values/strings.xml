@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Emijit</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Title -->
+    <string name="pref_title_label">Title</string>
+    <string name="pref_title_key" translatable="false">title</string>
+    <string name="pref_title_default" translatable="false">Ancient Antiques</string>
+    <!-- Subtitle -->
+    <string name="pref_subtitle_label">Subtitle</string>
+    <string name="pref_subtitle_key" translatable="false">subtitle</string>
+    <string name="pref_subtitle_default" translatable="false">Coronado, CA</string>
+    <!-- Email Label -->
+    <string name="pref_email_label_label">Email Label Text</string>
+    <string name="pref_email_label_key" translatable="false">email_label</string>
+    <string name="pref_email_label_default" translatable="false">Sign up now to get benefits</string>
+    <!-- Email Placeholder -->
+    <string name="pref_email_placeholder_label">Email Placeholder</string>
+    <string name="pref_email_placeholder_key" translatable="false">email_placeholder</string>
+    <string name="pref_email_placeholder_default" translatable="false">Enter your email</string>
+    <!-- Submit Button Text -->
+    <string name="pref_submit_btn_label">Submit Button Text</string>
+    <string name="pref_submit_btn_key" translatable="false">submit_btn</string>
+    <string name="pref_submit_btn_default" translatable="false">Submit</string>
+    <!-- Thank you Text -->
+    <string name="pref_thank_you_label">Thank you Text</string>
+    <string name="pref_thank_you_key" translatable="false">thank_you</string>
+    <string name="pref_thank_you_default" translatable="false">Thank you</string>
+
+    <!-- Colors-->
+    <!-- Email Input Line Color -->
+    <string name="pref_email_input_line_color_label">Email Input Line Color</string>
+    <string name="pref_email_input_line_color_key" translatable="false">email_input_line_color</string>
+    <!-- Submit Button Color -->
+    <string name="pref_submit_btn_color_label">Submit Button Color</string>
+    <string name="pref_submit_btn_color_key" translatable="false">submit_btn_color</string>
+
+    <!-- Background Image-->
+    <string name="pref_background_image_label">Background Image</string>
+    <string name="pref_background_image_key" translatable="false">background_image</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_completed_key">onboarding_completed</string>
+
+    <string name="blank"></string>
+    <string name="title_activity_emails">Emails</string>
+    <string name="filter_verbose_title">Emijit Email Capture</string>
+    <string name="emails">Emails</string>
+    <string name="sign_out">Sign out</string>
+    <string name="request_list">Request email list</string>
+    <string name="how_to_use">How to use</string>
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="get_started">Get started</string>
+    <string name="nav_panel_menu">Nav panel menu</string>
+    <string name="default_image_icon">Default image icon</string>
+    <string name="signup_view_screenshot">Signup view screenshot</string>
+    <string name="settings_view_screenshot">Settings view screenshot</string>
+    <string name="signup_view_main_image">Signup view main image</string>
+    <string name="nav_panel_header_image">Nav panel header image</string>
+    <string name="select_image_from_gallery">Select image from gallery image button</string>
+</resources>

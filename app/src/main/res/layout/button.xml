@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Should override 'id' and 'text' most of the time when using this -->
+
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button"
+    style="@style/Widget.App.Button"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/btn_height_small"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/margin"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginRight="@dimen/margin"
+    android:text="@string/pref_submit_btn_default" />

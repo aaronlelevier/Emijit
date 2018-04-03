@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme Colors-->
+    <integer name="colorPrimaryDark">0xff000000</integer>
+    <integer name="colorPrimary">0xff424242</integer>
+    <integer name="colorPrimaryLight">0xff616161</integer>
+    <integer name="colorAccent">0xffC62828</integer>
+
+    <!-- Base Colors -->
+    <integer name="colorWhite">0xffFFFFFF</integer>
+    <integer name="colorBlack">0xff000000</integer>
+    <integer name="colorGrey">0xff616161</integer>
+    <integer name="md_deep_purple_900">0xff311B92</integer>
+</resources>

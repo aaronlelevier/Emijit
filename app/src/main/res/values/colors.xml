@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme Colors-->
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryLight">#616161</color>
+    <color name="colorAccent">#C62828</color>
+
+    <!-- Base Colors -->
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="grey">#616161</color>
+    <color name="grey_300">#f3f3f3</color>
+    <color name="md_deep_purple_900">#311B92</color>
+
+</resources>
